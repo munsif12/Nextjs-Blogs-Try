@@ -25,8 +25,8 @@ import img2 from "../public/web-banner-urtasker-2.jpg";
 import img3 from "../public/web-banner-urtasker-3.jpg";
 import urtasker from "../public/urtasker.svg";
 
-import blogs2 from "../public/frontend/media/blogs1.jpg";
-import blogs3 from "../public/frontend/media/blogs1.jpg";
+// import blogs2 from "../public/frontend/media/blogs1.jpg";
+// import blogs3 from "../public/frontend/media/blogs1.jpg";
 // import logo_final_svg from "../assets/frontend/media/logo_final-svg.png";
 import channels from "../public/frontend/media/sales_channel.svg";
 import light_bg2 from "../public/frontend/media/light-bg2.png";
