@@ -1,5 +1,4 @@
 import React from "react";
-import blogs3 from "../public/frontend/media/blogs1.jpg";
 import Image from "next/image";
 import ReactHtmlParser from "react-html-parser";
 // import Link from "next/link";
@@ -18,7 +17,7 @@ function BlogDetails({
       <article className="article">
         <div className="article_image">
           <Image
-            src={`/uploads/${image}` || blogs3}
+            src={`/uploads/${image}`}
             alt={imageAlt}
             title={imageTitle}
             className="img-fluid"
