@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import blogs3 from "../public/frontend/media/blogs1.jpg";
 import Image from "next/image";
 import Link from "next/link";
 import { Person, Clock } from "react-bootstrap-icons";
@@ -87,7 +86,7 @@ function AllblogsEd({
           </div>
           <div className="article_image">
             <Image
-              src={`/uploads/${image}` || blogs3}
+              src={`/uploads/${image}`}
               alt="blog-1"
               className="img-fluid"
               height={400}
