@@ -1,5 +1,4 @@
 import React from "react";
-import blogs3 from "../public/frontend/media/blogs1.jpg";
 import Image from "next/image";
 import Link from "next/link";
 import { Person, Clock, ChatDots } from "react-bootstrap-icons";
@@ -20,7 +19,7 @@ function Blog({
       <article className="article">
         <div className="article_image">
           <Image
-            src={`/uploads/${image}` || blogs3}
+            src={`/uploads/${image}`}
             alt={imageAlt}
             title={imagetitle}
             className="img-fluid"
