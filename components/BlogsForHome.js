@@ -1,5 +1,4 @@
 import React from "react";
-import blogs1 from "../public/frontend/media/blogs1.jpg";
 import Image from "next/image";
 import { ArrowRight } from "react-bootstrap-icons";
 function BlogsForHome({ blogNo, date, title, image }) {
