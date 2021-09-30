@@ -2,7 +2,7 @@ import React from "react";
 import NavbarInventoolyWebsite from "../../components/NavbarInventoolyWebsite";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "../../components/Footer";
-import blogs3 from "../../public/frontend/media/blogs1.jpg";
+// import blogs3 from "../../public/frontend/media/blogs1.jpg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Row } from "react-bootstrap";
 // import blogsData from "../../data/blogsData";
