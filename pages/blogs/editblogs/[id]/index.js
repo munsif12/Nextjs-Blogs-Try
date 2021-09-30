@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import axiosNext from "../../../../components/axios";
-import blogs3 from "../../../../public/frontend/media/blogs1.jpg";
+// import blogs3 from "../../../../public/frontend/media/blogs1.jpg";
 import { Person, Clock } from "react-bootstrap-icons";
 import Image from "next/image";
 import Link from "next/link";
@@ -13,16 +13,6 @@ function EditSpecificBlog({ blogDetail }) {
   console.log(blogDetail);
   const router = useRouter();
   const [loading, setloading] = useState(false);
-  // const [blogDetail, setblogDetail] = useState({});
-  // async function fetchSpecificBlog() {
-  //   // console.log(router.query.id);
-  //   const { data } = await axiosNext(
-  //     async (ax) => await ax.get(`/fetchblogs/${router.query.id}`),
-  //     window.localStorage
-  //   );
-  //   setloading(false);
-  //   setblogDetail(data.data);
-  // }
   const [isLoggedIn, setLoggedIn] = useState(false);
   const loginUser = async () => {
     try {
@@ -56,9 +46,6 @@ function EditSpecificBlog({ blogDetail }) {
       router.push("/blogs/editblogs");
     }
   }
-  useEffect(() => {
-    // fetchSpecificBlog();
-  }, []);
   return loading ? (
     <div>
       <h1>Loading...</h1>
@@ -120,11 +107,11 @@ function EditSpecificBlog({ blogDetail }) {
                       width: "12%",
                       right: "12px",
                       top: "12px",
-                      background:"transparent"
+                      background: "transparent",
                     }}
                   >
                     <div className="editBlog">
-                      <Link href={`/blogs/editblogs/${blogDetail._id}/Edit`}>
+                      <Link href={`/blogs/editblogs/${blogDetail._id}/edit`}>
                         <a>
                           <button
                             className="btn"
@@ -148,7 +135,7 @@ function EditSpecificBlog({ blogDetail }) {
 
                   <div className="article_image">
                     <Image
-                      src={`/uploads/${blogDetail.blogImage}` || blogs3}
+                      src={`/uploads/${blogDetail.blogImage}`}
                       alt={blogDetail.images.imageAlt}
                       title={blogDetail.images.imageTitle}
                       className="img-fluid"
