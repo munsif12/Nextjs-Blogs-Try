@@ -15,9 +15,9 @@ import { useSelector } from "react-redux";
 // import mainImage5 from "../../assets/frontend/media/mainImage5.png";
 // import team from "../../assets/frontend/media/media/team.svg";
 // import chatbot from "../../component/chatbot/chatbot";
-import blogs1 from "../public/frontend/media/blogs1.jpg";
-import blogs2 from "../public/frontend/media/blogs1.jpg";
-import blogs3 from "../public/frontend/media/blogs1.jpg";
+// import blogs1 from "../public/frontend/media/blogs1.jpg";
+// import blogs2 from "../public/frontend/media/blogs1.jpg";
+// import blogs3 from "../public/frontend/media/blogs1.jpg";
 import banner_img from "../public/frontend/media/3497643.jpg";
 import feature1 from "../public/frontend/media/features1.svg";
 import feature2 from "../public/frontend/media/features2.svg";
@@ -515,7 +515,7 @@ const FrontFeatures = () => {
             </div>
           </div>
         </section>
-        <section
+        {/*  <section
           id="Blogs"
           style={{
             background: "#fff",
@@ -728,6 +728,7 @@ const FrontFeatures = () => {
             </div>
           </div>
         </section>
+         */}
         <section
           id="Contact"
           style={{
