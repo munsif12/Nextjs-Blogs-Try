@@ -19,7 +19,7 @@ function BlogsForHome({ blogNo, date, title, image }) {
         }}
       >
         <Image
-          src={`/uploads/${image}` || blogs3}
+          src={`/uploads/${image}`}
           alt={""}
           title={""}
           width={1024}
