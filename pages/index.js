@@ -114,19 +114,6 @@ const Home = (props) => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  // useEffect(() => {
-  //   if (doneContactForm) {
-  //     setName("");
-  //     setEmail("");
-  //     setSubject("");
-  //     setMessage("");
-  //   }
-  //   if (errContactForm) {
-  //     setErrors(errContactForm);
-  //   }
-  // }, []);
-
-  //navbar scroll changeBackground function
   const changeBackground = () => {
     if (window.scrollY >= 66) {
       setNavbar(true);
