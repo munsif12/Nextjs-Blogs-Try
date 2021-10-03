@@ -79,13 +79,7 @@ export async function getServerSideProps() {
   );
   const data = await res.json();
   console.log(data.allblogs);
-  if (!data) {
-    return {
-      props: {
-        data,
-      },
-    };
-  }
+
   return {
     props: {
       Blogs: data.allblogs,
